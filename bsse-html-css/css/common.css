@@ -1,0 +1,76 @@
+ .wrapper-cont {
+   position: relative;
+   top: 1rem;
+   width: 7.5rem;
+   height: 21.72rem;
+   background: url(../static/banner_bj.png) no-repeat;
+   background-size: 100% 100%;
+ }
+
+ .cont-step {
+   position: absolute;
+   z-index: 1;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   top: 8.52rem;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .step-progress {
+   width: 6.9rem;
+   height: 2.32rem;
+   margin-bottom: 0.4rem;
+   background: url(../static/w_bj.png) no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+ .forward-img {
+   width: 0.85rem;
+   height: 0.56rem;
+ }
+
+ .cont-flex {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .current span:nth-child(2) {
+   margin-top: 0.16rem;
+   font-size: 0.3rem;
+   font-weight: 600;
+   color: #407DF7;
+ }
+
+ .current span:nth-child(3) {
+   margin-top: 0.13rem;
+   font-size: 0.26rem;
+   font-weight: 600;
+   color: #999999;
+
+ }
+
+ .one-img {
+   width: 0.54rem;
+   height: 0.73rem;
+ }
+
+ .two-img {
+   width: 0.78rem;
+   height: 0.73rem;
+ }
+
+ .third-img {
+   width: 0.66rem;
+   height: 0.73rem;
+ }
+ .step-info{
+   width: 6.90rem;
+   height: 8.16rem;
+   position:relative;
+ }

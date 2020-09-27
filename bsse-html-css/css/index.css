@@ -1,0 +1,122 @@
+.step-one-cont {
+  background: url(../static/one_bj.png) no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.tip-text {
+  position: absolute;
+  font-size: 0.3rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  top: 0.8rem;
+  left: 1.3rem;
+}
+
+.merber-info {
+  padding: 0 0.46rem 0 0.51rem;
+  position: absolute;
+  top: 1.7rem;
+}
+
+.merber-info p {
+  display: flex;
+  height: 0.9rem;
+  margin-bottom: 0.4rem;
+  align-items: center;
+}
+
+.merber-info p:nth-child(1) span:nth-child(1) {
+  background: #F6DE6E;
+  border-radius: 50%;
+}
+
+.merber-info p:nth-child(2) span:nth-child(1) {
+  background: #F4C242;
+  border-radius: 50%;
+}
+
+.merber-info p:nth-child(3){
+  position: relative;
+}
+.merber-info p:nth-child(4) span:nth-child(1) {
+  background: #EB8457;
+  border-radius: 50%;
+}
+
+.merber-info p span:nth-child(1) {
+  font-size: 0.48rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 0.64rem;
+  height: 0.64rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.merber-info p span:nth-child(2) {
+  width: 5.3rem;
+  height: 0.9rem;
+}
+
+.send-btn {
+  width: 1.7rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background: #3F7CF6;
+  border-radius: 0.25rem;
+  font-size: 0.24rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+  display:block;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.4rem;
+}
+
+.case-input {
+  margin-left: 0.12rem;
+  padding: 0.3rem;
+  width: 5rem;
+  height: 0.9rem;
+  border-radius: 0.2rem;
+  background: #DDECFD;
+  font-size: 0.28rem;
+  font-weight: 400;
+  color: #96BAF9;
+}
+
+.submit-btn {
+  margin: 0 auto;
+  width: 3rem;
+  height: 0.9rem;
+  background: #3F7CF6;
+  border-radius: 0.45rem;
+  font-size: 0.4rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 0.9rem;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #96BAF9;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #96BAF9;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #96BAF9;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #96BAF9;
+}
